@@ -73,7 +73,7 @@ header {
     font-size: 60px;
 }
 .summary {
-    font-size: 20px !important;
+    font-size: 20px;
 }
 
 .role {
@@ -228,6 +228,44 @@ textarea {
         width: 150px;
     }
     .details {
-        width: 200px;
+        width: 300px;
+    }
+
+    body {
+        font-size: 10px !important;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+    .summary, .responsibility , .project-details , .about{
+        font-size: 15px;
+    }
+    .work > section {
+        font-size: 15px;
+    }
+
+    .role {
+        font-size: 17px;
+    }
+    .container {
+        width: 100%;
+    }
+
+    .skills{
+        gap: 10px;
+    }
+
+    .projects > b,span{
+        font-size: 12px;
+    }
+
+    #photo {
+        position: relative;
+        z-index: -1;
+    }
+
+    .year {
+        font-size: 7px;
     }
   }
