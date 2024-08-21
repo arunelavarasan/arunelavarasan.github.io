@@ -134,11 +134,15 @@ header {
 
 .responsibility-list {
     margin: 10px;
-    list-style-type: none;
+    /* list-style-type: none; */
+}
+
+.responsibility-list > li {
+    margin: 10px;
+    /* list-style-type: none; */
 }
 
 .responsibility {
-    list-style-type: none;
     display: inline-flex;
     flex-direction: column;
     gap: 10px;
@@ -286,10 +290,6 @@ textarea {
         gap: 10px;
     }
 
-    .projects > b,span{
-        font-size: 12px;
-    }
-
     #photo {
         position: relative;
         z-index: -1;
@@ -305,6 +305,10 @@ textarea {
 
     #menu {
         display: inline;
+    }
+
+    section {
+        font-size: 15px;
     }
 
     .open {
